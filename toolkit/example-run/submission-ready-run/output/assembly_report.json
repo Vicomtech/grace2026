@@ -1,0 +1,23 @@
+{
+  "run_config": {
+    "s1": "../ensemble/output/ensembles/ensemble_s1.json",
+    "s2": "../ensemble/output/ensembles/ensemble_s2.json",
+    "s3": "../ensemble/output/ensembles/ensemble_s3.json",
+    "reference": "../ensemble/output/ensembles/ensemble_s2.json",
+    "output": "output/final_submission.json",
+    "drop_unmapped_relations": false
+  },
+  "case_reports": [
+    {
+      "case_id": "CASE_1",
+      "sentence_relevancy_count": 3,
+      "entity_count": 3,
+      "relation_report": {
+        "relations_in": 2,
+        "relations_out": 2,
+        "dropped": [],
+        "deduplicated": 0
+      }
+    }
+  ]
+}

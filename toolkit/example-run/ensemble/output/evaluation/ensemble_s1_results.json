@@ -1,0 +1,27 @@
+{
+  "Subtask 1: Relevant F1": 1.0,
+  "Overall": 1.0,
+  "subtask1": {
+    "official_score": 1.0,
+    "macro_avg": {
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "micro_avg": {
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "relevant": {
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "not-relevant": {
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  }
+}

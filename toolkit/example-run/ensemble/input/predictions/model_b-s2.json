@@ -1,0 +1,68 @@
+[
+  {
+    "id": "CASE_1",
+    "raw_text": "Fiebre alta. Tos leve. ¿Diagnóstico?\n\na) Gripe.\n\nb) Alergia.",
+    "metadata": {
+      "context": "Fiebre alta. Tos leve. ¿Diagnóstico?",
+      "context_sentences": [
+        {
+          "sentence": "Fiebre alta.",
+          "start": 0,
+          "end": 12
+        },
+        {
+          "sentence": "Tos leve.",
+          "start": 13,
+          "end": 22
+        },
+        {
+          "sentence": "¿Diagnóstico?",
+          "start": 23,
+          "end": 36
+        }
+      ],
+      "choices": [
+        {
+          "id": "1",
+          "text": "Gripe.",
+          "start": 41,
+          "end": 47
+        },
+        {
+          "id": "2",
+          "text": "Alergia.",
+          "start": 52,
+          "end": 60
+        }
+      ],
+      "correct_choice_id": "1"
+    },
+    "predictions": {
+      "sentence_relevancy": [],
+      "entities": [
+        {
+          "id": "b_p1",
+          "text": "Fiebre alta",
+          "start": 0,
+          "end": 11,
+          "type": "Premise"
+        },
+        {
+          "id": "b_c1",
+          "text": "Gripe.",
+          "start": 41,
+          "end": 47,
+          "type": "Claim"
+        },
+        {
+          "id": "b_c2",
+          "text": "Alergia.",
+          "start": 52,
+          "end": 60,
+          "type": "Claim"
+        }
+      ],
+      "relations": []
+    }
+  }
+]

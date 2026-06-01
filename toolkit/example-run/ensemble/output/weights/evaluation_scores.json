@@ -1,0 +1,93 @@
+{
+  "model_a-s1": {
+    "file": "input/predictions/model_a-s1.json",
+    "status": "ok",
+    "tasks": [
+      1
+    ],
+    "official_scores": {
+      "s1": 1.0
+    },
+    "weights": {
+      "s1": 1.0
+    }
+  },
+  "model_a-s2": {
+    "file": "input/predictions/model_a-s2.json",
+    "status": "ok",
+    "tasks": [
+      2
+    ],
+    "official_scores": {
+      "s2": 1.0
+    },
+    "weights": {
+      "s2": 1.0
+    }
+  },
+  "model_a-s3": {
+    "file": "input/predictions/model_a-s3.json",
+    "status": "ok",
+    "tasks": [
+      3
+    ],
+    "official_scores": {
+      "s3": 1.0
+    },
+    "weights": {
+      "s3": 1.0
+    }
+  },
+  "model_b-s1": {
+    "file": "input/predictions/model_b-s1.json",
+    "status": "ok",
+    "tasks": [
+      1
+    ],
+    "official_scores": {
+      "s1": 1.0
+    },
+    "weights": {
+      "s1": 1.0
+    }
+  },
+  "model_b-s2": {
+    "file": "input/predictions/model_b-s2.json",
+    "status": "ok",
+    "tasks": [
+      2
+    ],
+    "official_scores": {
+      "s2": 1.0
+    },
+    "weights": {
+      "s2": 1.0
+    }
+  },
+  "model_b-s3": {
+    "file": "input/predictions/model_b-s3.json",
+    "status": "ok",
+    "tasks": [
+      3
+    ],
+    "official_scores": {
+      "s3": 1.0
+    },
+    "weights": {
+      "s3": 1.0
+    }
+  },
+  "model_c-s1": {
+    "file": "input/predictions/model_c-s1.json",
+    "status": "ok",
+    "tasks": [
+      1
+    ],
+    "official_scores": {
+      "s1": 0.0
+    },
+    "weights": {
+      "s1": 0.0
+    }
+  }
+}

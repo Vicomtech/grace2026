@@ -1,0 +1,73 @@
+{
+  "Subtask 3: Strict Macro F1": 1.0,
+  "Overall": 1.0,
+  "subtask3": {
+    "official_score": 1.0,
+    "strict": {
+      "per_type": {
+        "Support": {
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0
+        },
+        "Attack": {
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "macro_avg": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "micro_avg": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "relaxed": {
+      "per_type": {
+        "Support": {
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0
+        },
+        "Attack": {
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "macro_avg": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "micro_avg": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0
+      }
+    }
+  }
+}

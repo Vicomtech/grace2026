@@ -1,0 +1,82 @@
+{
+  "run_config": {
+    "inputs": [
+      "input/predictions/model_a-s1.json",
+      "input/predictions/model_b-s1.json",
+      "input/predictions/model_c-s1.json"
+    ],
+    "aliases": [
+      "model_a-s1",
+      "model_b-s1",
+      "model_c-s1"
+    ],
+    "weights": {
+      "model_a-s1": 1.0,
+      "model_b-s1": 1.0,
+      "model_c-s1": 0.0
+    },
+    "s1_strategy": "majority",
+    "s2_strategy": "cluster_vote",
+    "s3_strategy": "cluster_vote",
+    "min_votes": 2,
+    "entity_iou": 0.5,
+    "relation_iou": 0.5,
+    "gate_by_s1": false,
+    "task_evaluated": 1
+  },
+  "case_reports": [
+    {
+      "case_id": "CASE_1",
+      "task_evaluated": 1,
+      "subtask1": {
+        "strategy": "majority",
+        "sentences": [
+          {
+            "sentence_index": 0,
+            "votes": {
+              "relevant": 2,
+              "not-relevant": 1
+            },
+            "weighted_votes": {
+              "relevant": 2.0,
+              "not-relevant": 1.0
+            },
+            "selected": "relevant"
+          },
+          {
+            "sentence_index": 1,
+            "votes": {
+              "not-relevant": 3
+            },
+            "weighted_votes": {
+              "not-relevant": 3.0
+            },
+            "selected": "not-relevant"
+          },
+          {
+            "sentence_index": 2,
+            "votes": {
+              "not-relevant": 3
+            },
+            "weighted_votes": {
+              "not-relevant": 3.0
+            },
+            "selected": "not-relevant"
+          }
+        ]
+      },
+      "subtask2": {
+        "strategy": null,
+        "skipped": true
+      },
+      "subtask3": {
+        "strategy": null,
+        "skipped": true
+      },
+      "gating": {
+        "enabled": false,
+        "removed_entities": []
+      }
+    }
+  ]
+}

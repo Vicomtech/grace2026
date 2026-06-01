@@ -1,0 +1,95 @@
+{
+  "run_config": {
+    "inputs": [
+      "input/predictions/model_a-s2.json",
+      "input/predictions/model_b-s2.json"
+    ],
+    "aliases": [
+      "model_a-s2",
+      "model_b-s2"
+    ],
+    "weights": {
+      "model_a-s2": 1.0,
+      "model_b-s2": 1.0
+    },
+    "s1_strategy": "weighted",
+    "s2_strategy": "cluster_vote",
+    "s3_strategy": "cluster_vote",
+    "min_votes": 2,
+    "entity_iou": 0.5,
+    "relation_iou": 0.5,
+    "gate_by_s1": false,
+    "task_evaluated": 2
+  },
+  "case_reports": [
+    {
+      "case_id": "CASE_1",
+      "task_evaluated": 2,
+      "subtask1": {
+        "strategy": null,
+        "skipped": true
+      },
+      "subtask2": {
+        "strategy": "cluster_vote",
+        "clusters": [
+          {
+            "status": "kept",
+            "models": [
+              "model_a-s2",
+              "model_b-s2"
+            ],
+            "vote_count": 2,
+            "total_weight": 2.0,
+            "representative": {
+              "id": "agg_e1",
+              "text": "Fiebre alta",
+              "start": 0,
+              "end": 11,
+              "type": "Premise"
+            }
+          },
+          {
+            "status": "kept",
+            "models": [
+              "model_a-s2",
+              "model_b-s2"
+            ],
+            "vote_count": 2,
+            "total_weight": 2.0,
+            "representative": {
+              "id": "agg_e2",
+              "text": "Gripe.",
+              "start": 41,
+              "end": 47,
+              "type": "Claim"
+            }
+          },
+          {
+            "status": "kept",
+            "models": [
+              "model_a-s2",
+              "model_b-s2"
+            ],
+            "vote_count": 2,
+            "total_weight": 2.0,
+            "representative": {
+              "id": "agg_e3",
+              "text": "Alergia.",
+              "start": 52,
+              "end": 60,
+              "type": "Claim"
+            }
+          }
+        ]
+      },
+      "subtask3": {
+        "strategy": null,
+        "skipped": true
+      },
+      "gating": {
+        "enabled": false,
+        "removed_entities": []
+      }
+    }
+  ]
+}

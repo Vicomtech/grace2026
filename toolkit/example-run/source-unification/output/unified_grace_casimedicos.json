@@ -1,0 +1,194 @@
+[
+  {
+    "id": "CASE_1",
+    "raw_text": "Fiebre alta. Tos leve. ¿Diagnóstico?\n\na) Gripe.\n\nb) Alergia.",
+    "metadata": {
+      "context": "Fiebre alta. Tos leve. ¿Diagnóstico?",
+      "context_sentences": [
+        {
+          "sentence": "Fiebre alta.",
+          "start": 0,
+          "end": 12
+        },
+        {
+          "sentence": "Tos leve.",
+          "start": 13,
+          "end": 22
+        },
+        {
+          "sentence": "¿Diagnóstico?",
+          "start": 23,
+          "end": 36
+        }
+      ],
+      "choices": [
+        {
+          "id": "1",
+          "text": "Gripe.",
+          "start": 41,
+          "end": 47
+        },
+        {
+          "id": "2",
+          "text": "Alergia.",
+          "start": 52,
+          "end": 60
+        }
+      ],
+      "correct_choice_id": "1"
+    },
+    "annotations": {
+      "sentence_relevancy": [
+        "relevant",
+        "not-relevant",
+        "not-relevant"
+      ],
+      "entities": [
+        {
+          "id": "c1_p1",
+          "text": "Fiebre alta",
+          "start": 0,
+          "end": 11,
+          "type": "Premise"
+        },
+        {
+          "id": "1",
+          "text": "Gripe.",
+          "start": 41,
+          "end": 47,
+          "type": "Claim"
+        },
+        {
+          "id": "2",
+          "text": "Alergia.",
+          "start": 52,
+          "end": 60,
+          "type": "Claim"
+        }
+      ],
+      "relations": [
+        {
+          "id": "c1_r1",
+          "arg1_id": "c1_p1",
+          "arg2_id": "1",
+          "relation_type": "Support"
+        }
+      ]
+    },
+    "predictions": {
+      "sentence_relevancy": [],
+      "entities": [],
+      "relations": []
+    },
+    "origin": "GRACE"
+  },
+  {
+    "id": "237_144_es",
+    "origin": "CASIMEDICOS",
+    "raw_text": "QUESTION TYPE: NEUROLOGY\nCLINICAL CASE:\nTras un accidente de tráfico un paciente ingresa en coma.\nLa TAC muestra lesiones puntiformes en cuerpo calloso.\n¿Cuál es su diagnóstico?\n1- Hematoma subdural agudo.\n2- Lesión axonal difusa grave.\nCORRECT ANSWER: 2\nLa lesión axonal difusa explica coma y lesiones puntiformes.",
+    "metadata": {
+      "context": "Tras un accidente de tráfico un paciente ingresa en coma.\nLa TAC muestra lesiones puntiformes en cuerpo calloso.\n¿Cuál es su diagnóstico?",
+      "context_sentences": [
+        {
+          "sentence": "Tras un accidente de tráfico un paciente ingresa en coma.",
+          "start": 40,
+          "end": 97
+        },
+        {
+          "sentence": "La TAC muestra lesiones puntiformes en cuerpo calloso.",
+          "start": 98,
+          "end": 152
+        },
+        {
+          "sentence": "¿Cuál es su diagnóstico?",
+          "start": 153,
+          "end": 177
+        }
+      ],
+      "choices": [
+        {
+          "id": "1",
+          "text": "Hematoma subdural agudo.",
+          "start": 181,
+          "end": 205
+        },
+        {
+          "id": "2",
+          "text": "Lesión axonal difusa grave.",
+          "start": 209,
+          "end": 236
+        }
+      ],
+      "correct_choice_id": "2"
+    },
+    "annotations": {
+      "sentence_relevancy": [
+        "relevant",
+        "relevant",
+        "not-relevant"
+      ],
+      "entities": [
+        {
+          "id": "81b0855d5e",
+          "text": "Tras un accidente de tráfico un paciente ingresa en coma.",
+          "start": 40,
+          "end": 97,
+          "type": "Premise"
+        },
+        {
+          "id": "dd0104784a",
+          "text": "La TAC muestra lesiones puntiformes en cuerpo calloso.",
+          "start": 98,
+          "end": 152,
+          "type": "Premise"
+        },
+        {
+          "id": "1",
+          "text": "Hematoma subdural agudo.",
+          "start": 181,
+          "end": 205,
+          "type": "Claim"
+        },
+        {
+          "id": "2",
+          "text": "Lesión axonal difusa grave.",
+          "start": 209,
+          "end": 236,
+          "type": "Claim"
+        },
+        {
+          "id": "f327a4f57b",
+          "text": "La lesión axonal difusa explica coma y lesiones puntiformes.",
+          "start": 255,
+          "end": 315,
+          "type": "Claim"
+        }
+      ],
+      "relations": [
+        {
+          "id": "5f0d8c83",
+          "relation_type": "Support",
+          "arg1_id": "81b0855d5e",
+          "arg2_id": "2"
+        },
+        {
+          "id": "a957bcd8",
+          "relation_type": "Support",
+          "arg1_id": "dd0104784a",
+          "arg2_id": "2"
+        },
+        {
+          "id": "935edc46",
+          "relation_type": "Support",
+          "arg1_id": "f327a4f57b",
+          "arg2_id": "2"
+        }
+      ]
+    },
+    "predictions": {
+      "sentence_relevancy": [],
+      "entities": [],
+      "relations": []
+    }
+  }
+]

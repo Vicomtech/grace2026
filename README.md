@@ -47,7 +47,6 @@ provide their own copy of the GRACE records.
 Utilities used to prepare data and submissions for the GRACE shared task.
 This toolkit is intentionally small and focused on:
 
-- splitting GRACE-format datasets;
 - converting casimedicos-arg argumentation records into GRACE format;
 - creating task-specific ensembles and assembling final submission-ready runs.
 

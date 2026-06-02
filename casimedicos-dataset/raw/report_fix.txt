@@ -1,0 +1,372 @@
+INFO: [en] relation alignment for target languages: es, fr, it
+INFO: > Loading local JSON for train split (en -> es)...
+INFO:
+         >>> Manual relation injection: [es] (train) ---
+INFO:     - Case 416_76:
+INFO:       - Before (skipped): SIRS
+... /// ischemia
+...
+INFO:       + After (injected):    – Dolor abdominal agudo, SIRS, fracaso renal, acid... -> 4- Isquemia mesentérica.... [Support]
+INFO:     - Case 40_136:
+INFO:       - Before (skipped): You have already passed the Pneumology and Digesti... /// Lung
+...
+INFO:       + After (injected):    Ya has pasado el bloque de Neumología y el de Dige... -> 3- Pulmón.... [Attack]
+INFO:     - Case 524_54:
+INFO:       - Before (skipped): the NNT is 33.3
+... /// 33,3
+...
+INFO:       + After (injected):    Así pues, Isabel tiene un 50% de probabilidades de... -> 3- 1/4.... [Support]
+INFO:     - Case 412_54:
+INFO:       - Before (skipped): therefore her daughter has a 25% chance of having ... /// 1/4
+...
+INFO:       + After (injected):    Por lo tanto, si se tratan 33.3 pacientes como est... -> 3- 33,3.... [Support]
+INFO:     - Case 260_99:
+INFO:       - Before (skipped): Pancreatic neuroendocrine tumor + pituitary adenom... /// MEN 1
+...
+INFO:       - Before (skipped): MEN 1
+... /// Multiple endocrine neoplasia type 1 or Wermer's sy...
+INFO:       + After (injected):    Tumor neuroendocrino pancreático + adenoma hipofis... -> Tumor neuroendocrino pancreático + adenoma hipofis... [Support]
+INFO:       + After (injected):    Tumor neuroendocrino pancreático + adenoma hipofis... -> 1- Una neoplasia endocrina múltiple tipo 1 o Síndr... [Support]
+INFO:     - Case 513_38:
+INFO:       - Before (skipped): Of the proposed drugs, the least likely options wo... /// and 4
+...
+INFO:       - Before (skipped): and 4
+... /// Levodopa
+...
+INFO:       - Before (skipped): among the adverse reactions of levodopa, angioedem... /// and 4
+...
+INFO:       + After (injected):    De los fármacos propuestos, las opciones menos pro... -> De los fármacos propuestos, las opciones menos pro... [Support]
+INFO:       + After (injected):    De los fármacos propuestos, las opciones menos pro... -> 4- Levodopa.... [Attack]
+INFO:       + After (injected):    De los fármacos propuestos, las opciones menos pro... -> De los fármacos propuestos, las opciones menos pro... [Support]
+INFO:     - Case 387_156:
+INFO:       - Before (skipped): APLV
+... /// Cow's milk protein allergy
+...
+INFO:       + After (injected):    Niño con múltiples antecedentes familiares de aler... -> 3- Alergia a las proteínas de la leche de vaca.... [Support]
+INFO:     - Case 60_59:
+INFO:       - Before (skipped): Actually, it can be all of them
+... /// EAP
+...
+INFO:       + After (injected):    Realmente, pueden ser todas, pero la causa más fre... -> 3- EAP.... [Support]
+INFO:
+         --- CasiMedicos relations corpus: [en] -> [es] (train) ---
+          Total cases:         432
+          Related cases:       379
+          Total relations:     2380
+          Matched relations:   2380
+          Skipped relations:   0
+          Final coverage:      100.00%
+         -------------------------------------------------------
+INFO: >>> Saved aligned relations to: data\relations\es\train_relations.jsonl
+
+
+INFO: > Loading local JSON for validation split (en -> es)...
+INFO: 
+         >>> Manual relation injection: [es] (validation) ---
+INFO:     - Case 159_111:
+INFO:       - Before (skipped): IVUS seems to me to be one of the best performing ... /// IVU
+...
+INFO:       - Before (skipped): It has been confirmed as a high sensitivity and sp... /// IVU
+...
+INFO:       + After (injected):    • La UIV me parece una de las opciones con mayor r... -> 2- UIV.... [Support]
+INFO:       + After (injected):    Se ha confirmado como una exploración de gran sens... -> 2- UIV.... [Attack]
+INFO:
+         --- CasiMedicos relations corpus: [en] -> [es] (validation) ---
+          Total cases:         63
+          Related cases:       55
+          Total relations:     371
+          Matched relations:   371
+          Skipped relations:   0
+          Final coverage:      100.00%
+         -------------------------------------------------------
+INFO: >>> Saved aligned relations to: data\relations\es\validation_relations.jsonl
+
+
+INFO: > Loading local JSON for test split (en -> es)...
+INFO: 
+         >>> Manual relation injection: [es] (test) ---
+INFO:     - Case 486_45:
+INFO:       - Before (skipped): However, both array and NGS are usually reserved f... /// FISH
+...
+INFO:       + After (injected):    Sin embargo, tanto el array, como el NGS lo reserv... -> 2- FISH.... [Attack]
+INFO:     - Case 526_54:
+INFO:       - Before (skipped): NNT: 1/0.03= 33.3
+... /// 33,3
+...
+INFO:       + After (injected):    NNT: 1/0.03= 33.3
+... -> 33,3
+... [Support]
+INFO:
+         --- CasiMedicos relations corpus: [en] -> [es] (test) ---
+          Total cases:         125
+          Related cases:       116
+          Total relations:     754
+          Matched relations:   754
+          Skipped relations:   0
+          Final coverage:      100.00%
+         -------------------------------------------------------
+INFO: >>> Saved aligned relations to: data\relations\es\test_relations.jsonl
+
+
+INFO: > Loading local JSON for train split (en -> fr)...
+INFO: 
+         >>> Manual relation injection: [fr] (train) ---
+INFO:     - Case 416_76:
+INFO:       - Before (skipped): SIRS
+... /// ischemia
+...
+INFO:       + After (injected):    - Douleur abdominale aiguë, SIRS, insuffisance rén... -> - Ischémie mésentérique.... [Support]
+INFO:     - Case 40_136:
+INFO:       - Before (skipped): You have already passed the Pneumology and Digesti... /// Lung
+...
+INFO:       + After (injected):    Vous avez déjà réussi les blocs Pneumologie et Dig... -> 3- Poumon.... [Attack]
+INFO:     - Case 524_54:
+INFO:       - Before (skipped): the NNT is 33.3
+... /// 33,3
+...
+INFO:       + After (injected):    Par conséquent, le fait de traiter 33,3 patients c... -> 3- 33,3.... [Support]
+INFO:     - Case 412_54:
+INFO:       - Before (skipped): therefore her daughter has a 25% chance of having ... /// 1/4
+...
+INFO:       + After (injected):    Ainsi, Elizabeth a 50 % de chances d'avoir hérité ... -> 3- 1/4.... [Support]
+INFO:     - Case 260_99:
+INFO:       - Before (skipped): Pancreatic neuroendocrine tumor + pituitary adenom... /// MEN 1
+...
+INFO:       - Before (skipped): MEN 1
+... /// Multiple endocrine neoplasia type 1 or Wermer's sy...
+INFO:       + After (injected):    Tumeur neuroendocrine pancréatique + adénome hypop... -> Tumeur neuroendocrine pancréatique + adénome hypop... [Support]
+INFO:       + After (injected):    Tumeur neuroendocrine pancréatique + adénome hypop... -> 1- Néoplasie endocrinienne multiple de type 1 ou s... [Support]
+INFO:     - Case 513_38:
+INFO:       - Before (skipped): Of the proposed drugs, the least likely options wo... /// and 4
+...
+INFO:       - Before (skipped): and 4
+... /// Levodopa
+...
+INFO:       - Before (skipped): among the adverse reactions of levodopa, angioedem... /// and 4
+...
+INFO:       + After (injected):    Parmi les médicaments proposés, les options les mo... -> Parmi les médicaments proposés, les options les mo... [Support]
+INFO:       + After (injected):    Parmi les médicaments proposés, les options les mo... -> 4- Levodopa.... [Attack]
+INFO:       + After (injected):    Parmi les médicaments proposés, les options les mo... -> Parmi les médicaments proposés, les options les mo... [Support]
+INFO:     - Case 387_156:
+INFO:       - Before (skipped): APLV
+... /// Cow's milk protein allergy
+...
+INFO:       + After (injected):    Enfant ayant des antécédents familiaux multiples d... -> 3- Allergie aux protéines du lait de vache.... [Support]
+INFO:     - Case 60_59:
+INFO:       - Before (skipped): Actually, it can be all of them
+... /// EAP
+...
+INFO:       + After (injected):    En fait, il peut s'agir de toutes, mais la cause l... -> 3- EAP.... [Support]
+INFO:
+         --- CasiMedicos relations corpus: [en] -> [fr] (train) ---
+          Total cases:         432
+          Related cases:       379
+          Total relations:     2382
+          Matched relations:   2382
+          Skipped relations:   0
+          Final coverage:      100.00%
+         -------------------------------------------------------
+INFO: >>> Saved aligned relations to: data\relations\fr\train_relations.jsonl
+
+
+INFO: > Loading local JSON for validation split (en -> fr)...
+INFO: 
+         >>> Manual relation injection: [fr] (validation) ---
+INFO:     - Case 159_111:
+INFO:       - Before (skipped): IVUS seems to me to be one of the best performing ... /// IVU
+...
+INFO:       - Before (skipped): It has been confirmed as a high sensitivity and sp... /// IVU
+...
+INFO:       + After (injected):    - Échographie intravasculaire IVUS me semble être ... -> 2- Urogramme intraveineux UIV.... [Support]
+INFO:       + After (injected):    Il a été confirmé qu'il s'agit d'un examen à haute... -> 2- Urogramme intraveineux UIV.... [Attack]
+INFO:
+         --- CasiMedicos relations corpus: [en] -> [fr] (validation) ---
+          Total cases:         63
+          Related cases:       55
+          Total relations:     371
+          Matched relations:   371
+          Skipped relations:   0
+          Final coverage:      100.00%
+         -------------------------------------------------------
+INFO: >>> Saved aligned relations to: data\relations\fr\validation_relations.jsonl
+
+
+INFO: > Loading local JSON for test split (en -> fr)...
+INFO: 
+         >>> Manual relation injection: [fr] (test) ---
+INFO:     - Case 486_45:
+INFO:       - Before (skipped): However, both array and NGS are usually reserved f... /// FISH
+...
+INFO:       + After (injected):    Cependant, l'array et le NGS sont généralement rés... -> 2- FISH.... [Attack]
+INFO:     - Case 526_54:
+INFO:       - Before (skipped): NNT: 1/0.03= 33.3
+... /// 33,3
+...
+INFO:       + After (injected):    NNT : 1/0,03= 33,3... -> 3- 33,3.... [Support]
+INFO:     - Case 147_157:
+INFO:       - Before (skipped): The poor girl has been diagnosed with depression
+... /// The answer is 5
+...
+INFO:       - Before (skipped): The answer is 5
+... /// Major depressive disorder
+...
+INFO:       + After (injected):    La pauvre fille a été diagnostiquée comme souffran... -> La réponse est 5 (une autre option est qu'il étudi... [Support]
+INFO:       + After (injected):    La réponse est 5 (une autre option est qu'il étudi... -> 5- Trouble dépressif majeur.... [Support]
+INFO:
+         --- CasiMedicos relations corpus: [en] -> [fr] (test) ---
+          Total cases:         125
+          Related cases:       116
+          Total relations:     753
+          Matched relations:   753
+          Skipped relations:   0
+          Final coverage:      100.00%
+         -------------------------------------------------------
+INFO: >>> Saved aligned relations to: data\relations\fr\test_relations.jsonl
+
+
+INFO: > Loading local JSON for train split (en -> it)...
+INFO: 
+         >>> Manual relation injection: [it] (train) ---
+INFO:     - Case 416_76:
+INFO:       - Before (skipped): SIRS
+... /// ischemia
+...
+INFO:       + After (injected):    - Dolore addominale acuto, SIRS, insufficienza ren... -> 4- Ischemia mesenterica.... [Support]
+INFO:     - Case 9_36:
+INFO:       - Before (skipped): In these cases cholecystostomy can cure cholecysti... /// I think the correct answer is 2
+...
+INFO:       + After (injected):    Credo che la risposta corretta sia 2, anche se il ... -> 2- Drenaggio biliare mediante colecistostomia perc... [Support]
+INFO:     - Case 40_136:
+INFO:       - Before (skipped): You have already passed the Pneumology and Digesti... /// Lung
+...
+INFO:       + After (injected):    Avete già superato i blocchi Pneumologia e Digesti... -> 3- Polmone.... [Attack]
+INFO:     - Case 524_54:
+INFO:       - Before (skipped): the NNT is 33.3
+... /// 33,3
+...
+INFO:       + After (injected):    Pertanto, trattare 33,3 pazienti come questa donna... -> 3- 33,3.... [Support]
+INFO:     - Case 412_54:
+INFO:       - Before (skipped): therefore her daughter has a 25% chance of having ... /// 1/4
+...
+INFO:       + After (injected):    Pertanto, Elizabeth ha il 50% di probabilità di av... -> 3- 1/4.... [Support]
+INFO:     - Case 312_217:
+INFO:       - Before (skipped): In central retinal artery obstruction, metamorphop... /// Central retinal artery obstruction
+...
+INFO:       - Before (skipped): In this case the lesions are totally different
+... /// Central retinal artery obstruction
+...
+INFO:       - Before (skipped): In addition, the entire retina is globally affecte... /// Central retinal artery obstruction
+...
+INFO:       - Before (skipped): In the case of arterial occlusion, there is intrac... /// Central retinal artery obstruction
+...
+INFO:       + After (injected):    Nell'ostruzione dell'arteria retinica centrale, la... -> 3- Ostruzione dell'arteria retinica centrale.... [Attack]
+INFO:       + After (injected):    In questo caso le lesioni sono totalmente diverse.... -> 3- Ostruzione dell'arteria retinica centrale.... [Attack]
+INFO:       + After (injected):    Inoltre, colpisce globalmente l'intera retina e pu... -> 3- Ostruzione dell'arteria retinica centrale.... [Attack]
+INFO:       + After (injected):    In caso di occlusione arteriosa, l'edema intracell... -> 3- Ostruzione dell'arteria retinica centrale.... [Attack]
+INFO:     - Case 260_99:
+INFO:       - Before (skipped): Pancreatic neuroendocrine tumor + pituitary adenom... /// MEN 1
+...
+INFO:       - Before (skipped): MEN 1
+... /// Multiple endocrine neoplasia type 1 or Wermer's sy...
+INFO:       + After (injected):    Tumore neuroendocrino pancreatico + adenoma ipofis... -> 1- Neoplasia endocrina multipla di tipo 1 o sindro... [Support]
+INFO:       + After (injected):    1- Neoplasia endocrina multipla di tipo 1 o sindro... -> MEN 1... [Support]
+INFO:     - Case 513_38:
+INFO:       - Before (skipped): Of the proposed drugs, the least likely options wo... /// and 4
+...
+INFO:       - Before (skipped): and 4
+... /// Levodopa
+...
+INFO:       - Before (skipped): among the adverse reactions of levodopa, angioedem... /// and 4
+...
+INFO:       + After (injected):    Tra i farmaci proposti, le opzioni meno probabili ... -> 4- Levodopa.... [Support]
+INFO:       + After (injected):    4- Levodopa.... -> Levodopa... [Attack]
+INFO:       + After (injected):    tra le reazioni avverse della levodopa, l'angioede... -> 4- Levodopa.... [Support]
+INFO:     - Case 387_156:
+INFO:       - Before (skipped): APLV
+... /// Cow's milk protein allergy
+...
+INFO:       + After (injected):    Bambino con anamnesi familiare multipla di allergi... -> 3- Allergia alle proteine del latte vaccino.... [Support]
+INFO:     - Case 60_59:
+INFO:       - Before (skipped): Actually, it can be all of them
+... /// EAP
+...
+INFO:       + After (injected):    In realtà, possono essere tutte,... -> 3- EAP.... [Support]
+INFO:
+         --- CasiMedicos relations corpus: [en] -> [it] (train) ---
+          Total cases:         432
+          Related cases:       379
+          Total relations:     2382
+          Matched relations:   2382
+          Skipped relations:   0
+          Final coverage:      100.00%
+         -------------------------------------------------------
+INFO: >>> Saved aligned relations to: data\relations\it\train_relations.jsonl
+
+
+INFO: > Loading local JSON for validation split (en -> it)...
+INFO: 
+         >>> Manual relation injection: [it] (validation) ---
+INFO:     - Case 159_111:
+INFO:       - Before (skipped): IVUS seems to me to be one of the best performing ... /// IVU
+...
+INFO:       - Before (skipped): It has been confirmed as a high sensitivity and sp... /// IVU
+...
+INFO:       + After (injected):    L'IVU mi sembra una delle opzioni più performanti.... -> 2- UIV.... [Support]
+INFO:       + After (injected):    Si è confermato un test altamente sensibile e spec... -> 2- UIV.... [Attack]
+INFO:     - Case 93_31:
+INFO:       - Before (skipped): if the picture is also accompanied by a flare-up o... /// Adjustment of bowel disease treatment.
+...
+INFO:       - Before (skipped): in a 17-year-old boy it would be extremely rare
+... /// Although erythema nodosum can be secondary to a ma...
+INFO:       - Before (skipped): Although erythema nodosum can be secondary to a ma... /// if the picture is also accompanied by a flare-up o...
+INFO:       + After (injected):    se il quadro è accompagnato anche da una riacutizz... -> 5- Adattamento del trattamento delle malattie inte... [Support]
+INFO:       + After (injected):    in un ragazzo di 17 anni sarebbe estremamente raro... -> Sebbene l'eritema nodoso possa essere secondario a... [Attack]
+INFO:       + After (injected):    Sebbene l'eritema nodoso possa essere secondario a... -> se il quadro è accompagnato anche da una riacutizz... [Support]
+INFO:
+         --- CasiMedicos relations corpus: [en] -> [it] (validation) ---
+          Total cases:         63
+          Related cases:       55
+          Total relations:     371
+          Matched relations:   371
+          Skipped relations:   0
+          Final coverage:      100.00%
+         -------------------------------------------------------
+INFO: >>> Saved aligned relations to: data\relations\it\validation_relations.jsonl
+
+
+INFO: > Loading local JSON for test split (en -> it)...
+INFO: 
+         >>> Manual relation injection: [it] (test) ---
+INFO:     - Case 486_45:
+INFO:       - Before (skipped): However, both array and NGS are usually reserved f... /// FISH
+...
+INFO:       + After (injected):    Tuttavia, sia l'array che l'NGS sono solitamente r... -> 2- PESCE.... [Attack]
+INFO:     - Case 8_232:
+INFO:       - Before (skipped): with 5 we could rule out viral hepatitis
+... /// Serology for B and C viruses
+...
+INFO:       + After (injected):    con la 5 potremmo escludere l'epatite virale... -> 5- Sierologia del virus B e C.... [Attack]
+INFO:     - Case 526_54:
+INFO:       - Before (skipped): NNT: 1/0.03= 33.3
+... /// 33,3
+...
+INFO:       + After (injected):    NNT: 1/0,03= 33,3... -> 3- 33,3.... [Support]
+INFO:     - Case 147_157:
+INFO:       - Before (skipped): The poor girl has been diagnosed with depression
+... /// The answer is 5
+...
+INFO:       - Before (skipped): The answer is 5
+... /// Major depressive disorder
+...
+INFO:       + After (injected):    Alla povera ragazza è stata diagnosticata la depre... -> 5- Disturbo depressivo maggiore.... [Support]
+INFO:       + After (injected):    La risposta è 5 (un'altra possibilità è che stesse... -> 5- Disturbo depressivo maggiore.... [Support]
+INFO:
+         --- CasiMedicos relations corpus: [en] -> [it] (test) ---
+          Total cases:         125
+          Related cases:       116
+          Total relations:     752
+          Matched relations:   752
+          Skipped relations:   0
+          Final coverage:      100.00%
+         -------------------------------------------------------
+INFO: >>> Saved aligned relations to: data\relations\it\test_relations.jsonl

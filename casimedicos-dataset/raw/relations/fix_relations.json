@@ -1,0 +1,169 @@
+{
+  "es":{
+    "train": {
+        "416_76": [
+                    ["– Dolor abdominal agudo, SIRS, fracaso renal, acidosis metabólica (isquemia!), probablemente un láctico elevado…", "4- Isquemia mesentérica.", "Support"]
+                  ],
+        "40_136": [
+                    ["Ya has pasado el bloque de Neumología y el de Digestivo.", "4- Esófago.", "Attack"]
+                  ],
+        "524_54": [
+                    ["Así pues, Isabel tiene un 50% de probabilidades de haber heredado el gen mutado de la madre (como sus hijos están todos sanos, no estamos seguros de que sea portadora), y por lo tanto su hija un 25% de probabilidades de haber heredado el gen mutado de la abuela.", "3- 1/4.", "Support"]
+                  ],
+        "412_54": [
+                    ["Por lo tanto, si se tratan 33.3 pacientes como esta mujer con warfarina, se reduce en 1 el número de ictus: el NNT es 33.3", "3- 33,3.", "Support"]
+                  ],
+        "260_99": [
+                    ["Tumor neuroendocrino pancreático + adenoma hipofisario (prolactinoma) + hiperparatiroidismo (cólicos renoureterales en gente joven): MEN 1.", "Tumor neuroendocrino pancreático + adenoma hipofisario (prolactinoma) + hiperparatiroidismo (cólicos renoureterales en gente joven): MEN 1.", "Support"],
+                    ["Tumor neuroendocrino pancreático + adenoma hipofisario (prolactinoma) + hiperparatiroidismo (cólicos renoureterales en gente joven): MEN 1.", "1- Una neoplasia endocrina múltiple tipo 1 o Síndrome de Wermer.", "Support"]
+                  ],
+        "513_38": [
+                    ["De los fármacos propuestos, las opciones menos probables serían la 3, ya que la metformina muy raramente causa angioedema lingual (en marzo de 2020 sólo había un caso descrito en todo el mundo) y la 4, ya que, entre las reacciones adversas de la levodopa, el angioedema se clasifica entre las muy raras (frecuencia menor al 0,1%).", "De los fármacos propuestos, las opciones menos probables serían la 3, ya que la metformina muy raramente causa angioedema lingual (en marzo de 2020 sólo había un caso descrito en todo el mundo) y la 4, ya que, entre las reacciones adversas de la levodopa, el angioedema se clasifica entre las muy raras (frecuencia menor al 0,1%).", "Support"],
+                    ["De los fármacos propuestos, las opciones menos probables serían la 3, ya que la metformina muy raramente causa angioedema lingual (en marzo de 2020 sólo había un caso descrito en todo el mundo) y la 4, ya que, entre las reacciones adversas de la levodopa, el angioedema se clasifica entre las muy raras (frecuencia menor al 0,1%).", "4- Levodopa.", "Attack"],
+                    ["De los fármacos propuestos, las opciones menos probables serían la 3, ya que la metformina muy raramente causa angioedema lingual (en marzo de 2020 sólo había un caso descrito en todo el mundo) y la 4, ya que, entre las reacciones adversas de la levodopa, el angioedema se clasifica entre las muy raras (frecuencia menor al 0,1%).", "De los fármacos propuestos, las opciones menos probables serían la 3, ya que la metformina muy raramente causa angioedema lingual (en marzo de 2020 sólo había un caso descrito en todo el mundo) y la 4, ya que, entre las reacciones adversas de la levodopa, el angioedema se clasifica entre las muy raras (frecuencia menor al 0,1%).", "Support"]
+                  ],
+        "387_156": [
+                    ["Niño con múltiples antecedentes familiares de alergia (asma, atopia), que ha recibido leche artificial en las primeras horas de vida (sensibilización a la proteína de la leche de vaca) y que coincidiendo con la toma de leche artificial inicia clínica digestiva y exantema = APLV.", "3- Alergia a las proteínas de la leche de vaca.", "Support"]
+                  ],
+        "60_59": [
+                  ["Realmente, pueden ser todas, pero la causa más frecuente de una acidosis aguda respiratoria no compensada en una persona joven es la bronconeumonía.", "3- EAP.", "Support"]
+                ]
+      },
+
+      "test": {
+          "486_45": [
+                      ["Sin embargo, tanto el array, como el NGS lo reservamos habitualmente para pacientes con cuadros clínicos no evidentes, discapacidad intelectual, o sospecha de algún síndrome genético que precise de estas pruebas concretas (por ejemplo, un array para diagnósticar un síndrome de deleción 22q11 o un panel NGS para diagnosticar un síndrome de Noonan).", "2- FISH.", "Attack"]
+                    ],
+          "526_54": [
+                      ["NNT: 1/0.03= 33.3\n", "33,3\n", "Support"]
+                    ]
+      },
+
+      "validation": {
+          "159_111": [
+                    ["• La UIV me parece una de las opciones con mayor rendimiento.", "2- UIV.", "Support"],
+                    ["Se ha confirmado como una exploración de gran sensibilidad y especificidad, superando a las anteriores pruebas (94-100% y 92-100%, respectivamente, para la detección de cálculo ureteral) y con sus numerosas ventajas se ha convertido en el examen de referencia por lo que se espera que reemplazará a UIV y la ecografía en todo el mundo.", "2- UIV.", "Attack"]
+                  ]
+          }
+  },
+
+  "fr":{
+    "train": {
+        "416_76": [
+                  ["- Douleur abdominale aiguë, SIRS, insuffisance rénale, acidose métabolique (ischémie !), probablement une élévation des taux d'acide lactique...", "- Ischémie mésentérique.", "Support"]                  ],
+        "40_136": [
+                    ["Vous avez déjà réussi les blocs Pneumologie et Digestif.", "3- Poumon.", "Attack"]
+                  ],
+        "524_54": [
+                    ["Par conséquent, le fait de traiter 33,3 patients comme cette femme avec de la warfarine réduit le nombre d'accidents vasculaires cérébraux de 1 : le NNT est de 33,3.", "3- 33,3.", "Support"]
+                  ],
+        "412_54": [
+                    ["Ainsi, Elizabeth a 50 % de chances d'avoir hérité du gène muté de sa mère (comme ses enfants sont tous en bonne santé, nous ne savons pas si elle est porteuse), et sa fille a donc 25 % de chances d'avoir hérité du gène muté de sa grand-mère.", "3- 1/4.", "Support"]
+                  ],
+        "260_99": [
+                    ["Tumeur neuroendocrine pancréatique + adénome hypophysaire (prolactinome) + hyperparathyroïdie (colique néphrétique chez les jeunes) : MEN 1.", "Tumeur neuroendocrine pancréatique + adénome hypophysaire (prolactinome) + hyperparathyroïdie (colique néphrétique chez les jeunes) : MEN 1.", "Support"],
+                    ["Tumeur neuroendocrine pancréatique + adénome hypophysaire (prolactinome) + hyperparathyroïdie (colique néphrétique chez les jeunes) : MEN 1.", "1- Néoplasie endocrinienne multiple de type 1 ou syndrome de Wermer.", "Support"]                  
+                  ],
+        "513_38": [
+                    ["Parmi les médicaments proposés, les options les moins probables seraient le 3, car la metformine provoque très rarement un angio-œdème lingual (en mars 2020, un seul cas avait été décrit dans le monde) et le 4, car, parmi les effets indésirables de la lévodopa, l'angio-œdème est classé parmi les effets très rares (fréquence inférieure à 0,1 %).", "Parmi les médicaments proposés, les options les moins probables seraient le 3, car la metformine provoque très rarement un angio-œdème lingual (en mars 2020, un seul cas avait été décrit dans le monde) et le 4, car, parmi les effets indésirables de la lévodopa, l'angio-œdème est classé parmi les effets très rares (fréquence inférieure à 0,1 %).", "Support"],
+                    ["Parmi les médicaments proposés, les options les moins probables seraient le 3, car la metformine provoque très rarement un angio-œdème lingual (en mars 2020, un seul cas avait été décrit dans le monde) et le 4, car, parmi les effets indésirables de la lévodopa, l'angio-œdème est classé parmi les effets très rares (fréquence inférieure à 0,1 %).", "4- Levodopa.", "Attack"],
+                    ["Parmi les médicaments proposés, les options les moins probables seraient le 3, car la metformine provoque très rarement un angio-œdème lingual (en mars 2020, un seul cas avait été décrit dans le monde) et le 4, car, parmi les effets indésirables de la lévodopa, l'angio-œdème est classé parmi les effets très rares (fréquence inférieure à 0,1 %).", "Parmi les médicaments proposés, les options les moins probables seraient le 3, car la metformine provoque très rarement un angio-œdème lingual (en mars 2020, un seul cas avait été décrit dans le monde) et le 4, car, parmi les effets indésirables de la lévodopa, l'angio-œdème est classé parmi les effets très rares (fréquence inférieure à 0,1 %).", "Support"]
+                  ],
+        "387_156": [
+                    ["Enfant ayant des antécédents familiaux multiples d'allergie (asthme, atopie), qui a reçu du lait artificiel dans les premières heures de sa vie (sensibilisation aux protéines du lait de vache) et qui, coïncidant avec la prise de lait artificiel, développe des symptômes digestifs et un exanthème = APLV.", "3- Allergie aux protéines du lait de vache.", "Support"]
+                  ],
+        "60_59": [
+                    ["En fait, il peut s'agir de toutes, mais la cause la plus fréquente d'acidose respiratoire aiguë non compensée chez un jeune est la bronchopneumonie.", "3- EAP.", "Support"]                
+                  ]
+        },
+
+    "test": {
+        "486_45": [
+                    ["Cependant, l'array et le NGS sont généralement réservés aux patients présentant des tableaux cliniques non évidents, une déficience intellectuelle ou une suspicion de syndrome génétique nécessitant ces tests spécifiques (par exemple, un array pour diagnostiquer le syndrome de délétion 22q11 ou un panel NGS pour diagnostiquer le syndrome de Noonan).", "2- FISH.", "Attack"]
+                  ],
+        "526_54": [
+                    ["NNT : 1/0,03= 33,3", "3- 33,3.", "Support"]
+                  ],
+        "147_157": [
+                    ["La pauvre fille a été diagnostiquée comme souffrant de dépression.", "La réponse est 5 (une autre option est qu'il étudiait le MIR).", "Support"],
+                    ["La réponse est 5 (une autre option est qu'il étudiait le MIR).", "5- Trouble dépressif majeur.", "Support"]                  
+                  ]
+        },
+
+    "validation": {
+        "159_111": [
+                    ["- Échographie intravasculaire IVUS me semble être l'une des options les plus performantes.", "2- Urogramme intraveineux UIV.", "Support"],
+                    ["Il a été confirmé qu'il s'agit d'un examen à haute sensibilité et spécificité, surpassant les tests précédents (94-100% et 92-100%, respectivement, pour la détection des calculs urétéraux). Grâce à ses nombreux avantages, il est devenu le test de référence et devrait remplacer l'IVUS et l'échographie dans le monde entier.", "2- Urogramme intraveineux UIV.", "Attack"]                
+                  ]
+        }
+    },
+
+  "it":{
+    "train": {
+        "416_76": [
+                  ["- Dolore addominale acuto, SIRS, insufficienza renale, acidosi metabolica (ischemia!), probabilmente un'elevata...", "4- Ischemia mesenterica.", "Support"]                  
+                ],
+        "9_36": [
+                  ["Credo che la risposta corretta sia 2, anche se il trattamento per la colecistite acuta è la colecistectomia, per la quale è necessario che il paziente sia candidato alla chirurgia, in questo caso si tratta di un paziente anziano, con patologie pregresse che aumentano il rischio chirurgico e sarebbe un ASA IV per un intervento urgente.", "2- Drenaggio biliare mediante colecistostomia percutanea.", "Support"]
+        ],
+        "40_136": [
+                  ["Avete già superato i blocchi Pneumologia e Digestione.", "3- Polmone.", "Attack"]                  
+        ],
+        "524_54": [
+                  ["Pertanto, trattare 33,3 pazienti come questa donna con il warfarin riduce il numero di ictus di 1: l'NNT è 33,3.", "3- 33,3.", "Support"]                  
+        ],
+        "412_54": [
+                    ["Pertanto, Elizabeth ha il 50% di probabilità di aver ereditato il gene mutato dalla madre (dato che i suoi figli sono tutti sani, non siamo sicuri che sia portatrice), e quindi sua figlia ha il 25% di probabilità di aver ereditato il gene mutato dalla nonna.", "3- 1/4.", "Support"]
+                  ],
+        "312_217": [
+                    ["Nell'ostruzione dell'arteria retinica centrale, la metamorfopsia non è particolarmente caratteristica (lo sono la perdita visiva e l'età avanzata), ma le lesioni del fondo variano.", "3- Ostruzione dell'arteria retinica centrale.", "Attack"],
+                    ["In questo caso le lesioni sono totalmente diverse.", "3- Ostruzione dell'arteria retinica centrale.", "Attack"],
+                    ["Inoltre, colpisce globalmente l'intera retina e può comparire una macchia rosso ciliegia nella macula.", "3- Ostruzione dell'arteria retinica centrale.", "Attack"],
+                    ["In caso di occlusione arteriosa, l'edema intracellulare si manifesta con l'assenza di emorragie e un fondo biancastro e pallido.", "3- Ostruzione dell'arteria retinica centrale.", "Attack"]                  
+                  ],
+        "260_99": [
+                    ["Tumore neuroendocrino pancreatico + adenoma ipofisario (prolattinoma) + iperparatiroidismo (colica renoureterale nei giovani): MEN 1", "1- Neoplasia endocrina multipla di tipo 1 o sindrome di Wermer.", "Support"],
+                    ["1- Neoplasia endocrina multipla di tipo 1 o sindrome di Wermer.", "MEN 1", "Support"]                  
+                  ],
+        "513_38": [
+                  ["Tra i farmaci proposti, le opzioni meno probabili sarebbero la 3", "4- Levodopa.", "Support"],
+                  ["4- Levodopa.", "Levodopa", "Attack"],
+                  ["tra le reazioni avverse della levodopa, l'angioedema è classificato tra quelle molto rare (frequenza inferiore allo 0,1%).", "4- Levodopa.", "Support"]
+                  ],
+        "387_156": [
+                    ["Bambino con anamnesi familiare multipla di allergia (asma, atopia), che ha ricevuto latte artificiale nelle prime ore di vita (sensibilizzazione alle proteine del latte vaccino) e che, in coincidenza con l'assunzione di latte artificiale, sviluppa sintomi digestivi ed esantemi = APLV.", "3- Allergia alle proteine del latte vaccino.", "Support"]
+                  ],
+        "60_59": [
+                    ["In realtà, possono essere tutte,", "3- EAP.", "Support"]                
+                  ]
+        },
+
+    "test": {
+        "486_45": [
+                    ["Tuttavia, sia l'array che l'NGS sono solitamente riservati ai pazienti con quadri clinici non evidenti, disabilità intellettiva o sospetto di una sindrome genetica che richiede questi test specifici...", "2- PESCE.", "Attack"]
+                  ],
+        "8_232": [
+                    ["con la 5 potremmo escludere l'epatite virale", "5- Sierologia del virus B e C.", "Attack"]
+                  ],        
+        "526_54": [
+                    ["NNT: 1/0,03= 33,3", "3- 33,3.", "Support"]
+                  ],
+        "147_157": [
+                    ["Alla povera ragazza è stata diagnosticata la depressione.", "5- Disturbo depressivo maggiore.", "Support"],
+                    ["La risposta è 5 (un'altra possibilità è che stesse studiando il MIR).", "5- Disturbo depressivo maggiore.", "Support"]
+                  ]
+        },
+
+    "validation": {
+        "159_111": [
+                    ["L'IVU mi sembra una delle opzioni più performanti.", "2- UIV.", "Support"],
+                    ["Si è confermato un test altamente sensibile e specifico, superiore ai test precedenti (94-100% e 92-100%, rispettivamente, per l'individuazione dei calcoli ureterali) e con i suoi numerosi vantaggi è diventato il test gold standard e si prevede che sostituirà l'IVUS e l'ecografia in tutto il mondo.", "2- UIV.", "Attack"]                
+                  ],
+        "93_31": [
+                    ["se il quadro è accompagnato anche da una riacutizzazione della malattia infiammatoria intestinale, l'ultima opzione (5) sembra la più corretta", "5- Adattamento del trattamento delle malattie intestinali.", "Support"],
+                    ["in un ragazzo di 17 anni sarebbe estremamente raro", "Sebbene l'eritema nodoso possa essere secondario a un processo maligno, è più frequente che sia dovuto alla stessa malattia di Crohn", "Attack"],
+                    ["Sebbene l'eritema nodoso possa essere secondario a un processo maligno, è più frequente che sia dovuto alla stessa malattia di Crohn", "se il quadro è accompagnato anche da una riacutizzazione della malattia infiammatoria intestinale, l'ultima opzione (5) sembra la più corretta", "Support"]
+        ]
+        }
+    }
+}

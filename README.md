@@ -11,9 +11,8 @@ This repository contains technical resources and information related to the [GRA
 
 ## Technical Resources
 
-This repository open-sources all the technical components, datasets, and code utilized in our methodology for the shared task:
+This repository open-sources all the technical components, and code utilized in our methodology for the shared task:
 
-*   **[Casimedicos-arg](https://huggingface.co/datasets/HiTZ/casimedicos-arg) dataset:** The complete dataset structured into the final GRACE format, explicitly including all entity/semantic relations across all languages.
 *   **Formatting Engine & Ensembling Core:** The combined Python engine designed to preprocess raw data into the standardized GRACE schema and execute our decision-fusion algorithms to optimize final predictions.
 *   **Experimental prompts:** The exact prompt engineering artifacts, system instructions, and templates utilized during experimentation, mapped specifically to each individual subtask.
 
@@ -21,6 +20,25 @@ This repository open-sources all the technical components, datasets, and code ut
 ---
 
 ## Dataset
+
+The official GRACE competition records were provided through Codabench. They are
+not redistributed in this repository. The repository therefore includes only public auxiliary data
+and small example inputs for running the toolkit.
+
+Our auxiliary data comes from
+[CasiMedicos-Arg](https://huggingface.co/datasets/HiTZ/casimedicos-arg), a
+CC-BY-4.0 multilingual medical question-answering argumentation dataset in
+English, Spanish, French, and Italian, described by
+[Sviridova et al. (EMNLP 2024)](https://aclanthology.org/2024.emnlp-main.1026/).
+The processed release in
+[casimedicos-dataset/](casimedicos-dataset/) contains normalized train/dev/test
+JSONL files, aligned argument relations, and monolingual, bilingual, and
+all-language split variants.
+
+The [source unifier](toolkit/src/source-unifier/) converts these processed
+CasiMedicos files into the GRACE JSON schema and can merge them with a local
+GRACE JSON file. To reproduce unified GRACE + CasiMedicos inputs, users must
+provide their own copy of the GRACE records.
 
 
 

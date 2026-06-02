@@ -1,0 +1,229 @@
+INFO: [en] relation alignment for target languages: es, fr, it
+INFO: > Loading local JSON for train split (en -> es)...
+INFO: 
+         --- Alignment Report: [en] -> [es] (train) ---
+          Total cases:    432
+          Related cases: 379
+          Total relations:     2384
+          Matched relations:   2373
+          Skipped relations:   11
+          Coverage:           99.54%
+         -------------------------------------------------------
+INFO: >>> Saved aligned relations to: data\relations\es\skipped_train.jsonl
+
+
+WARNING: 
+
+         [!] Printing all skipped relations for es - train:
+WARNING:                 Case 416_76 | SIRS <-> ischemia
+WARNING:                 Case 40_136 | You have already passed the Pneumology and Digestive blocks <-> Lung
+WARNING:                 Case 524_54 | the NNT is 33.3 <-> 33,3
+WARNING:                 Case 412_54 | therefore her daughter has a 25% chance of having inherited the mutated gene from her grandmother <-> 1/4
+WARNING:                 Case 260_99 | Pancreatic neuroendocrine tumor + pituitary adenoma (prolactinoma) + hyperparathyroidism (renoureteral colic in young people) <-> MEN 1
+WARNING:                 Case 260_99 | MEN 1 <-> Multiple endocrine neoplasia type 1 or Wermer's syndrome
+WARNING:                 Case 513_38 | Of the proposed drugs, the least likely options would be 3 <-> and 4
+WARNING:                 Case 513_38 | and 4 <-> Levodopa
+WARNING:                 Case 513_38 | among the adverse reactions of levodopa, angioedema is classified among the very rare ones (frequency less than 0.1%) <-> and 4
+WARNING:                 Case 387_156 | APLV <-> Cow's milk protein allergy
+WARNING:                 Case 60_59 | Actually, it can be all of them <-> EAP
+INFO: >>> Saved aligned relations to: data\relations\es\train_relations.jsonl
+
+
+INFO: > Loading local JSON for validation split (en -> es)...
+INFO: 
+         --- Alignment Report: [en] -> [es] (validation) ---
+          Total cases:    63
+          Related cases: 55
+          Total relations:     371
+          Matched relations:   369
+          Skipped relations:   2
+          Coverage:           99.46%
+         -------------------------------------------------------
+INFO: >>> Saved aligned relations to: data\relations\es\skipped_validation.jsonl
+
+
+WARNING:
+
+         [!] Printing all skipped relations for es - validation:
+WARNING:                 Case 159_111 | IVUS seems to me to be one of the best performing options <-> IVU
+WARNING:                 Case 159_111 | It has been confirmed as a high sensitivity and specificity scan, surpassing previous tests (94-100% and 92-100%, respectively, for the detection of ureteral calculi) and with its numerous advantages it has become the reference test and is expected to replace IVUS and ultrasound worldwide <-> IVU
+INFO: >>> Saved aligned relations to: data\relations\es\validation_relations.jsonl
+
+
+INFO: > Loading local JSON for test split (en -> es)...
+INFO: 
+         --- Alignment Report: [en] -> [es] (test) ---
+          Total cases:    125
+          Related cases: 116
+          Total relations:     754
+          Matched relations:   752
+          Skipped relations:   2
+          Coverage:           99.73%
+         -------------------------------------------------------
+INFO: >>> Saved aligned relations to: data\relations\es\skipped_test.jsonl
+
+
+WARNING:
+
+         [!] Printing all skipped relations for es - test:
+WARNING:                 Case 486_45 | However, both array and NGS are usually reserved for patients with non-obvious clinical pictures, intellectual disability, or suspicion of a genetic syndrome that requires these specific tests (for example, an array to diagnose a 22q11 deletion syndrome or an NGS panel to diagnose a Noonan syndrome) <-> FISH
+WARNING:                 Case 526_54 | NNT: 1/0.03= 33.3 <-> 33,3
+INFO: >>> Saved aligned relations to: data\relations\es\test_relations.jsonl
+
+
+INFO: > Loading local JSON for train split (en -> fr)...
+INFO: 
+         --- Alignment Report: [en] -> [fr] (train) ---
+          Total cases:    432
+          Related cases: 379
+          Total relations:     2384
+          Matched relations:   2373
+          Skipped relations:   11
+          Coverage:           99.54%
+         -------------------------------------------------------
+INFO: >>> Saved aligned relations to: data\relations\fr\skipped_train.jsonl
+
+
+WARNING:
+
+         [!] Printing all skipped relations for fr - train:
+WARNING:                 Case 416_76 | SIRS <-> ischemia
+WARNING:                 Case 40_136 | You have already passed the Pneumology and Digestive blocks <-> Lung
+WARNING:                 Case 524_54 | the NNT is 33.3 <-> 33,3
+WARNING:                 Case 412_54 | therefore her daughter has a 25% chance of having inherited the mutated gene from her grandmother <-> 1/4
+WARNING:                 Case 260_99 | Pancreatic neuroendocrine tumor + pituitary adenoma (prolactinoma) + hyperparathyroidism (renoureteral colic in young people) <-> MEN 1
+WARNING:                 Case 260_99 | MEN 1 <-> Multiple endocrine neoplasia type 1 or Wermer's syndrome
+WARNING:                 Case 513_38 | Of the proposed drugs, the least likely options would be 3 <-> and 4
+WARNING:                 Case 513_38 | and 4 <-> Levodopa
+WARNING:                 Case 513_38 | among the adverse reactions of levodopa, angioedema is classified among the very rare ones (frequency less than 0.1%) <-> and 4
+WARNING:                 Case 387_156 | APLV <-> Cow's milk protein allergy
+WARNING:                 Case 60_59 | Actually, it can be all of them <-> EAP
+INFO: >>> Saved aligned relations to: data\relations\fr\train_relations.jsonl
+
+
+INFO: > Loading local JSON for validation split (en -> fr)...
+INFO: 
+         --- Alignment Report: [en] -> [fr] (validation) ---
+          Total cases:    63
+          Related cases: 55
+          Total relations:     371
+          Matched relations:   369
+          Skipped relations:   2
+          Coverage:           99.46%
+         -------------------------------------------------------
+INFO: >>> Saved aligned relations to: data\relations\fr\skipped_validation.jsonl
+
+
+WARNING:
+
+         [!] Printing all skipped relations for fr - validation:
+WARNING:                 Case 159_111 | IVUS seems to me to be one of the best performing options <-> IVU
+WARNING:                 Case 159_111 | It has been confirmed as a high sensitivity and specificity scan, surpassing previous tests (94-100% and 92-100%, respectively, for the detection of ureteral calculi) and with its numerous advantages it has become the reference test and is expected to replace IVUS and ultrasound worldwide <-> IVU
+INFO: >>> Saved aligned relations to: data\relations\fr\validation_relations.jsonl
+
+
+INFO: > Loading local JSON for test split (en -> fr)...
+INFO: 
+         --- Alignment Report: [en] -> [fr] (test) ---
+          Total cases:    125
+          Related cases: 116
+          Total relations:     754
+          Matched relations:   750
+          Skipped relations:   4
+          Coverage:           99.47%
+         -------------------------------------------------------
+INFO: >>> Saved aligned relations to: data\relations\fr\skipped_test.jsonl
+
+
+WARNING:
+
+         [!] Printing all skipped relations for fr - test:
+WARNING:                 Case 486_45 | However, both array and NGS are usually reserved for patients with non-obvious clinical pictures, intellectual disability, or suspicion of a genetic syndrome that requires these specific tests (for example, an array to diagnose a 22q11 deletion syndrome or an NGS panel to diagnose a Noonan syndrome) <-> FISH
+WARNING:                 Case 526_54 | NNT: 1/0.03= 33.3 <-> 33,3
+WARNING:                 Case 147_157 | The poor girl has been diagnosed with depression <-> The answer is 5
+WARNING:                 Case 147_157 | The answer is 5 <-> Major depressive disorder
+INFO: >>> Saved aligned relations to: data\relations\fr\test_relations.jsonl
+
+
+INFO: > Loading local JSON for train split (en -> it)...
+INFO: 
+         --- Alignment Report: [en] -> [it] (train) ---
+          Total cases:    432
+          Related cases: 379
+          Total relations:     2384
+          Matched relations:   2368
+          Skipped relations:   16
+          Coverage:           99.33%
+         -------------------------------------------------------
+INFO: >>> Saved aligned relations to: data\relations\it\skipped_train.jsonl
+
+
+WARNING:
+
+         [!] Printing all skipped relations for it - train:
+WARNING:                 Case 416_76 | SIRS <-> ischemia
+WARNING:                 Case 9_36 | In these cases cholecystostomy can cure cholecystitis <-> I think the correct answer is 2
+WARNING:                 Case 40_136 | You have already passed the Pneumology and Digestive blocks <-> Lung
+WARNING:                 Case 524_54 | the NNT is 33.3 <-> 33,3
+WARNING:                 Case 412_54 | therefore her daughter has a 25% chance of having inherited the mutated gene from her grandmother <-> 1/4
+WARNING:                 Case 312_217 | In central retinal artery obstruction, metamorphopsia is not particularly characteristic (visual loss and advanced age are), but the lesions in the fundus of the eye vary <-> Central retinal artery 
+obstruction
+WARNING:                 Case 312_217 | In this case the lesions are totally different <-> Central retinal artery obstruction
+WARNING:                 Case 312_217 | In addition, the entire retina is globally affected, and a cherry-red spot may appear in the macula <-> Central retinal artery obstruction
+WARNING:                 Case 312_217 | In the case of arterial occlusion, there is intracellular edema that is seen as absence of hemorrhages and a whitish, pale fundus <-> Central retinal artery obstruction
+WARNING:                 Case 260_99 | Pancreatic neuroendocrine tumor + pituitary adenoma (prolactinoma) + hyperparathyroidism (renoureteral colic in young people) <-> MEN 1
+WARNING:                 Case 260_99 | MEN 1 <-> Multiple endocrine neoplasia type 1 or Wermer's syndrome
+WARNING:                 Case 513_38 | Of the proposed drugs, the least likely options would be 3 <-> and 4
+WARNING:                 Case 513_38 | and 4 <-> Levodopa
+WARNING:                 Case 513_38 | among the adverse reactions of levodopa, angioedema is classified among the very rare ones (frequency less than 0.1%) <-> and 4
+WARNING:                 Case 387_156 | APLV <-> Cow's milk protein allergy
+WARNING:                 Case 60_59 | Actually, it can be all of them <-> EAP
+INFO: >>> Saved aligned relations to: data\relations\it\train_relations.jsonl
+
+
+INFO: > Loading local JSON for validation split (en -> it)...
+INFO: 
+         --- Alignment Report: [en] -> [it] (validation) ---
+          Total cases:    63
+          Related cases: 55
+          Total relations:     371
+          Matched relations:   366
+          Skipped relations:   5
+          Coverage:           98.65%
+         -------------------------------------------------------
+INFO: >>> Saved aligned relations to: data\relations\it\skipped_validation.jsonl
+
+
+WARNING:
+
+         [!] Printing all skipped relations for it - validation:
+WARNING:                 Case 159_111 | IVUS seems to me to be one of the best performing options <-> IVU
+WARNING:                 Case 159_111 | It has been confirmed as a high sensitivity and specificity scan, surpassing previous tests (94-100% and 92-100%, respectively, for the detection of ureteral calculi) and with its numerous advantages it has become the reference test and is expected to replace IVUS and ultrasound worldwide <-> IVU
+WARNING:                 Case 93_31 | if the picture is also accompanied by a flare-up of inflammatory bowel disease, the last option (5) seems the most correct <-> Adjustment of bowel disease treatment.
+WARNING:                 Case 93_31 | in a 17-year-old boy it would be extremely rare <-> Although erythema nodosum can be secondary to a malignant process, it is more frequent that it is due to Crohn's disease itself
+WARNING:                 Case 93_31 | Although erythema nodosum can be secondary to a malignant process, it is more frequent that it is due to Crohn's disease itself <-> if the picture is also accompanied by a flare-up of inflammatory bowel disease, the last option (5) seems the most correct
+INFO: >>> Saved aligned relations to: data\relations\it\validation_relations.jsonl
+
+
+INFO: > Loading local JSON for test split (en -> it)...
+INFO: 
+         --- Alignment Report: [en] -> [it] (test) ---
+          Total cases:    125
+          Related cases: 116
+          Total relations:     754
+          Matched relations:   749
+          Skipped relations:   5
+          Coverage:           99.34%
+         -------------------------------------------------------
+INFO: >>> Saved aligned relations to: data\relations\it\skipped_test.jsonl
+
+
+WARNING:
+
+         [!] Printing all skipped relations for it - test:
+WARNING:                 Case 486_45 | However, both array and NGS are usually reserved for patients with non-obvious clinical pictures, intellectual disability, or suspicion of a genetic syndrome that requires these specific tests (for example, an array to diagnose a 22q11 deletion syndrome or an NGS panel to diagnose a Noonan syndrome) <-> FISH
+WARNING:                 Case 8_232 | with 5 we could rule out viral hepatitis <-> Serology for B and C viruses
+WARNING:                 Case 526_54 | NNT: 1/0.03= 33.3 <-> 33,3
+WARNING:                 Case 147_157 | The poor girl has been diagnosed with depression <-> The answer is 5
+WARNING:                 Case 147_157 | The answer is 5 <-> Major depressive disorder
+INFO: >>> Saved aligned relations to: data\relations\it\test_relations.jsonl

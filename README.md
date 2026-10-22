@@ -1,10 +1,12 @@
 # GRACE2026
 
-This repository contains technical resources and information related to the [GRACE2026](https://www.codabench.org/competitions/13280/) shared task.
-
+This repository contains technical resources and information related to
+the [GRACE2026](https://www.codabench.org/competitions/13280/) shared task.
 
 <p align="center">
-	  <img src="https://img.shields.io/badge/📄_Paper-TBA-red.svg" alt="Paper Coming Soon">
+    <a href="https://ceur-ws.org/Vol-4273/GRACE2026_paper1.pdf">
+        <img src="https://img.shields.io/badge/📄-%20Paper-red.svg" alt="Paper link">
+    </a>
 </p>
 
 ---
@@ -13,9 +15,10 @@ This repository contains technical resources and information related to the [GRA
 
 This repository open-sources all the technical components, and code utilized in our methodology for the shared task:
 
-*   **Formatting Engine & Ensembling Core:** The combined Python engine designed to preprocess raw data into the standardized GRACE schema and execute our decision-fusion algorithms to optimize final predictions.
-*   **Experimental prompts:** The exact prompt engineering artifacts, system instructions, and templates utilized during experimentation, mapped specifically to each individual subtask.
-
+* **Formatting Engine & Ensembling Core:** The combined Python engine designed to preprocess raw data into the standardized GRACE
+  schema and execute our decision-fusion algorithms to optimize final predictions.
+* **Experimental prompts:** The exact prompt engineering artifacts, system instructions, and templates utilized during
+  experimentation, mapped specifically to each individual subtask.
 
 ---
 
@@ -39,8 +42,6 @@ The [source unifier](toolkit/src/source-unifier/) converts these processed
 CasiMedicos files into the GRACE JSON schema and can merge them with a local
 GRACE JSON file. To reproduce unified GRACE + CasiMedicos inputs, users must
 provide their own copy of the GRACE records.
-
-
 
 ## Toolkit
 
@@ -74,6 +75,7 @@ Responde únicamente con "relevant" o "not-relevant".
 ````
 
 #### All-in-One Inference Annotation Prompt
+
 ````text
 Eres un experto clínico. Tu tarea es evaluar una lista numerada de oraciones de un caso clínico.
 Debes determinar si cada oración contiene evidencia médica RELEVANTE (síntomas, historial, pruebas) o si es IRRELEVANTE (texto de relleno, saludos, la pregunta final).
@@ -119,6 +121,7 @@ Oración a analizar:
 ````
 
 #### All-in-One Inference Annotation Prompt
+
 ````text
 Eres un experto en razonamiento clínico y extracción de información. Tu tarea es identificar y extraer fragmentos de texto exactos que representen 'Premises' o 'Claims' dentro del caso clínico proporcionado.
             
@@ -175,6 +178,7 @@ Opción (Claim):
 ````
 
 #### All-in-One Inference Annotation Prompt
+
 ````text
 Eres un razonador clínico. Se te dará una PREMISA (un hecho del paciente) y un CLAIM (una posible respuesta/diagnóstico). Tu tarea es determinar la relación argumentativa entre ellos:
 - 'Support': La premisa apoya, confirma o es consistente con el claim.
@@ -307,6 +311,11 @@ Restricciones obligatorias:
 ````
 
 ## Citation
+
 ```
-TBA
+@article{platas2026vicomtech,
+  title={Vicomtech at GRACE 2026: From Fine-Tuning to Multi-Strategy LLMs and Ensembles for Spanish Clinical Argument Mining},
+  author={Platas, Alexander and Ruiz, Alvaro and Rodr{\'\i}guez, Adriana and Reyero, Paula and Zotova, Elena and Tur{\'o}n, Pablo and P{\'e}rez, Iker and Cuadros, Montse},
+  year={2026}
+}
 ```
